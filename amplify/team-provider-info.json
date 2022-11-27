@@ -1,0 +1,28 @@
+{
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quickidverification-production-191129-authRole",
+      "UnauthRoleArn": "arn:aws:iam::433607059963:role/amplify-quickidverification-production-191129-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::433607059963:role/amplify-quickidverification-production-191129-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-quickidverification-production-191129-deployment",
+      "UnauthRoleName": "amplify-quickidverification-production-191129-unauthRole",
+      "StackName": "amplify-quickidverification-production-191129",
+      "StackId": "arn:aws:cloudformation:eu-west-2:433607059963:stack/amplify-quickidverification-production-191129/4ca2ee60-6e87-11ed-8fb9-02e638078d9a",
+      "AmplifyAppId": "dnn4kjtpf6x89"
+    }
+  },
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quickidverification-staging-195410-authRole",
+      "UnauthRoleArn": "arn:aws:iam::433607059963:role/amplify-quickidverification-staging-195410-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::433607059963:role/amplify-quickidverification-staging-195410-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-quickidverification-staging-195410-deployment",
+      "UnauthRoleName": "amplify-quickidverification-staging-195410-unauthRole",
+      "StackName": "amplify-quickidverification-staging-195410",
+      "StackId": "arn:aws:cloudformation:eu-west-2:433607059963:stack/amplify-quickidverification-staging-195410/431c84e0-6e8d-11ed-9a0e-0265dd96e7b2",
+      "AmplifyAppId": "dnn4kjtpf6x89"
+    }
+  }
+}
