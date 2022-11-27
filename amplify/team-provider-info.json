@@ -1,4 +1,25 @@
 {
+  "production": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quickidverification-production-212716-authRole",
+      "UnauthRoleArn": "arn:aws:iam::433607059963:role/amplify-quickidverification-production-212716-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::433607059963:role/amplify-quickidverification-production-212716-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-quickidverification-production-212716-deployment",
+      "UnauthRoleName": "amplify-quickidverification-production-212716-unauthRole",
+      "StackName": "amplify-quickidverification-production-212716",
+      "StackId": "arn:aws:cloudformation:eu-west-2:433607059963:stack/amplify-quickidverification-production-212716/444d77e0-6e9a-11ed-aa7f-06f36a216ec8",
+      "AmplifyAppId": "d48eefq6oxypm"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d48eefq6oxypm",
+          "type": "cicd"
+        }
+      }
+    }
+  },
   "staging": {
     "awscloudformation": {
       "AuthRoleName": "amplify-quickidverification-staging-211638-authRole",
