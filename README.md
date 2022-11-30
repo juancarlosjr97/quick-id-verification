@@ -4,7 +4,7 @@ This project is to demonstrate how to setup a project with [AWS Amplify](https:/
 
 ## Demo
 
-The demo app is available [here](https://main.d48eefq6oxypm.amplifyapp.com/)
+The demo app is available [here](https://main.d48eefq6oxypm.amplifyapp.com/).
 
 ## Development
 
@@ -40,11 +40,11 @@ We need to have installed the following services:
 
 4. Install Amplify
 
-   Next, if you do not have the AWS Amplify CLI installed, please follow the instructions at [AWS Amplify - Installation](https://docs.amplify.aws/cli/start/install/)
+   Next, if you do not have the AWS Amplify CLI installed, please follow the instructions at [AWS Amplify - Installation](https://docs.amplify.aws/cli/start/install/).
 
 ### Amplify Project Setup
 
-If amplify has not been configure, run `amplify configure` to connect Amplify with the local environment
+If amplify has not been configure, run `amplify configure` to connect Amplify with the local environment.
 
 ### Initialize Amplify
 
@@ -89,8 +89,8 @@ The hosting of the frontend is trigger when pushing a new commit to repository.
 
 After the user has uploaded the two images and the request has been sent to the backend for verification:
 
-1. The images of the user and the ID are checked using the `DetectFaces API` by checking the face quality individually of each image
-2. The two images are compared using the `CompareFaces API` to make ensure the two images are a matched
+1. The images of the user and the ID are checked using the `DetectFaces API` by checking the face quality individually of each image.
+2. The two images are compared using the `CompareFaces API` to make ensure the two images are a matched.
 
 ## Enable PR Preview with Amplify
 
@@ -98,7 +98,7 @@ By default, PR Previews with Amplify are only available with private repositorie
 
 ## AWS Pricing Calculator
 
-Using the AWS Pricing Calculator, an estimation has been created based on 1000 Check ID Verifications. The estimation is available [here](https://calculator.aws/#/estimate?id=1745bd834cb3f5a09916bda1414f245da56ceab0)
+Using the AWS Pricing Calculator, an estimation has been created based on 1000 Check ID Verifications. The estimation is available [here](https://calculator.aws/#/estimate?id=1745bd834cb3f5a09916bda1414f245da56ceab0).
 
 ## One Click Deployment App
 
@@ -108,7 +108,7 @@ Using the One Click Deployment will build the web app ready to be used without a
 
 ## Acknowledgment
 
-The project has been inspired on a [AWS Example](https://github.com/aws-samples/amazon-rekognition-id-verification-sample-with-amplify)
+The project has been inspired on a [AWS Example](https://github.com/aws-samples/amazon-rekognition-id-verification-sample-with-amplify).
 
 ## License
 
