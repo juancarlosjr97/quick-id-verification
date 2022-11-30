@@ -47,5 +47,9 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "npm run linter:fix:eslint",
     "*.{js,jsx,ts,tsx,css,md}": "npm run linter:fix:prettier"
+  },
+  "engines": {
+    "node": "v18.12.1",
+    "npm": "9.1.2"
   }
 }
