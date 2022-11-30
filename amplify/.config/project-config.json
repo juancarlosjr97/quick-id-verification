@@ -1,0 +1,15 @@
+{
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "src",
+      "DistributionDir": ".next",
+      "BuildCommand": "npm run-script build",
+      "StartCommand": "npm run-script start"
+    }
+  },
+  "projectName": "quickidverification",
+  "providers": ["awscloudformation"],
+  "version": "3.1"
+}

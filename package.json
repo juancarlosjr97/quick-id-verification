@@ -1,22 +1,55 @@
 {
+  "private": true,
   "name": "quick-id-verification",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "linter:all:check": "concurrently npm:linter:check:*",
+    "linter:all:fix": "concurrently npm:linter:fix:*",
+    "linter:check:eslint": "eslint .",
+    "linter:check:prettier": "prettier --check . && prettier-package-json",
+    "linter:fix:eslint": "eslint . --fix",
+    "linter:fix:prettier": "prettier --write . && prettier-package-json --write",
+    "prepare": "husky install",
+    "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/lab": "^5.0.0-alpha.110",
+    "@mui/material": "^5.10.16",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
-    "eslint": "8.28.0",
+    "aws-amplify": "^5.0.4",
     "eslint-config-next": "13.0.5",
     "next": "13.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
     "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.0",
+    "@typescript-eslint/parser": "^5.45.0",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "husky": "^8.0.2",
+    "prettier": "^2.8.0",
+    "prettier-package-json": "^2.7.0",
+    "prettier-plugin-sort-json": "^0.0.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": "npm run linter:fix:eslint",
+    "*.{js,jsx,ts,tsx,css,md}": "npm run linter:fix:prettier"
+  },
+  "engines": {
+    "node": "v18.12.1",
+    "npm": "9.1.2"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "paths": {
+    "/id-verification": {
+      "name": "/id-verification",
+      "lambdaFunction": "quickidverificationlambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  },
+  "version": 1
+}

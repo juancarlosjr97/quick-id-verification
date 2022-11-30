@@ -1,0 +1,18 @@
+[
+  {
+    "Key": "user:Stack",
+    "Value": "{project-env}"
+  },
+  {
+    "Key": "user:Application",
+    "Value": "{project-name}"
+  },
+  {
+    "Key": "project",
+    "Value": "{project-name}"
+  },
+  {
+    "Key": "logical-environment",
+    "Value": "{project-env}"
+  }
+]
