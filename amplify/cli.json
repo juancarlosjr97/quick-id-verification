@@ -1,4 +1,7 @@
 {
+  "debug": {
+    "shareProjectConfig": true
+  },
   "features": {
     "graphqltransformer": {
       "addmissingownerfields": true,
@@ -55,8 +58,5 @@
     "project": {
       "overrides": true
     }
-  },
-  "debug": {
-    "shareProjectConfig": true
   }
 }

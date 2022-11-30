@@ -1,6 +1,4 @@
 {
-  "projectName": "quickidverification",
-  "version": "3.1",
   "frontend": "javascript",
   "javascript": {
     "framework": "react",
@@ -11,7 +9,7 @@
       "StartCommand": "npm run-script start"
     }
   },
-  "providers": [
-    "awscloudformation"
-  ]
+  "projectName": "quickidverification",
+  "providers": ["awscloudformation"],
+  "version": "3.1"
 }

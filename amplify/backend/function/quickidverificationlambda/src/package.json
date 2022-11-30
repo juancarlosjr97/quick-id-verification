@@ -1,0 +1,14 @@
+{
+  "name": "quickidverificationlambda",
+  "version": "2.0.0",
+  "description": "Lambda function Quick ID Verification Endpoint",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "yup": "0.32.11"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92"
+  }
+}
